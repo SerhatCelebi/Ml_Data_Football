@@ -167,6 +167,16 @@ VotingClassifier(
 - Eksik veri analizi
 - Sezon geçiş validasyonu
 
+### API Kullanımı (Veri Kaynağı)
+
+Bu projede kullanılan veritabanı, ham veri kaynaklarından doğrudan alınmamıştır. Veriler, **kendi geliştirdiğim bir API** üzerinden filtrelenerek ve doğrulama süreçlerinden geçirilerek oluşturulmuştur. Bu sayede:
+
+- Hatalı, eksik veya çelişkili veri girişleri engellenir  
+- Sadece yüksek kaliteli ve analiz için uygun veriler kullanılır  
+- Lig, sezon, takım, tarih gibi parametrelerle detaylı ve kontrollü veri yönetimi sağlanır
+
+> ℹ️ API bu projeyle birlikte paylaşılmamıştır, ancak sistemin temel veri akışı bu özel API üzerinden sağlanmaktadır.
+
 ## 🎯 Tahmin Türleri
 
 ### İlk Yarı
