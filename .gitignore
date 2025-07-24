@@ -1,0 +1,21 @@
+# Tüm dosyaları ignore et
+*
+
+# Sadece bu dosyaları takip et
+!app.py
+!analysis.py
+!feature_engineering.py
+!model_training.py
+!prediction.py
+!sports_data.db
+
+# README.md dosyasını da dahil et (GitHub için gerekli)
+!README.md
+
+# .gitignore dosyasının kendisini de takip et
+!.gitignore
+
+# Eğer models klasörü varsa ve gerekiyorsa
+# !models/
+# models/**
+# !models/*.joblib 
