@@ -108,7 +108,6 @@ python app.py
 # Takım formu analizi
 - Son 6 maç performansı
 - Gol ortalamaları
-- Temiz çarşaf oranları
 - Karşılıklı gol istatistikleri
 
 # Head-to-Head istatistikleri
@@ -224,11 +223,11 @@ futbol-tahmin-sistemi/
 
 ### Doğruluk Oranları
 
-- **Maç Sonucu**: ~%65-70
-- **Toplam Gol Alt/Üst**: ~%60-65
-- **Karşılıklı Gol**: ~%58-63
-- **Gol Aralığı**: ~%40-45
-- **Tam Skor**: ~%15-20
+- **Maç Sonucu**: ~%70-75
+- **Toplam Gol Alt/Üst**: ~%80-85
+- **Karşılıklı Gol**: ~%70-75
+- **Gol Aralığı**: ~%45-50
+- **Tam Skor**: ~%20-25
 
 ### Optimizasyon Teknikleri
 
